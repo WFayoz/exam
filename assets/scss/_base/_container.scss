@@ -4,3 +4,23 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+
+@media (max-width:1000px){
+  .container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+  }
+  
+}
+
+@media (max-width:800px){
+  .container {
+    max-width: 1260px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+}

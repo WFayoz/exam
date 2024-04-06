@@ -9,6 +9,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>LOKKI</title>
 </head>
@@ -19,6 +22,9 @@
         <nav class="navTop">
             <div class="container">
                 <div class="blackNav">
+                    <div class="blackHamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                     <ul class="blackNav__socials">
                         <li><a href="facebook.com"><img src="./assets/imgs/facebook.svg" alt="facebook"></a></li>
                         <li><a href="twitter.com"><svg xmlns="http://www.w3.org/2000/svg" width="31" height="31"
@@ -47,19 +53,16 @@
                                         d="M9.84712 2.40002C5.54661 2.40002 2.04712 5.89951 2.04712 10.2V21C2.04712 25.3005 5.54661 28.8 9.84712 28.8H20.6471C24.9476 28.8 28.4471 25.3005 28.4471 21V10.2C28.4471 5.89951 24.9476 2.40002 20.6471 2.40002H9.84712ZM9.84712 3.60002H20.6471C24.299 3.60002 27.2471 6.54813 27.2471 10.2V21C27.2471 24.6519 24.299 27.6 20.6471 27.6H9.84712C6.19523 27.6 3.24712 24.6519 3.24712 21V10.2C3.24712 6.54813 6.19523 3.60002 9.84712 3.60002ZM22.4471 7.20002C22.1289 7.20002 21.8236 7.32645 21.5986 7.5515C21.3735 7.77654 21.2471 8.08176 21.2471 8.40002C21.2471 8.71828 21.3735 9.02351 21.5986 9.24855C21.8236 9.4736 22.1289 9.60002 22.4471 9.60002C22.7654 9.60002 23.0706 9.4736 23.2956 9.24855C23.5207 9.02351 23.6471 8.71828 23.6471 8.40002C23.6471 8.08176 23.5207 7.77654 23.2956 7.5515C23.0706 7.32645 22.7654 7.20002 22.4471 7.20002ZM15.2471 9.00002C11.6091 9.00002 8.64712 11.9621 8.64712 15.6C8.64712 19.238 11.6091 22.2 15.2471 22.2C18.8851 22.2 21.8471 19.238 21.8471 15.6C21.8471 11.9621 18.8851 9.00002 15.2471 9.00002ZM15.2471 10.2C18.2366 10.2 20.6471 12.6106 20.6471 15.6C20.6471 18.5895 18.2366 21 15.2471 21C12.2577 21 9.84712 18.5895 9.84712 15.6C9.84712 12.6106 12.2577 10.2 15.2471 10.2Z"
                                         fill="white" />
                                 </svg></a></li>
+                                <a class="nav__phone" href="phone.com">
+                                    <span><svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
+                                            fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M15.7112 21.6437L18.802 18.5529C19.1446 18.2103 19.6837 18.1626 20.0811 18.4398L24.5014 21.5227C25.012 21.8788 25.0766 22.6098 24.6364 23.05L23.8556 23.8309C23.1453 24.5411 22.1284 24.8488 21.169 24.5511C18.8255 23.8241 14.2531 22.0271 10.4856 18.2596C6.71814 14.4922 4.9212 9.91976 4.19414 7.57624C3.8965 6.61689 4.20413 5.59998 4.91439 4.88972L5.69526 4.10884C6.13544 3.66867 6.86648 3.73331 7.22259 4.2439L10.3055 8.66413C10.5827 9.06161 10.535 9.60064 10.1924 9.9433L7.10157 13.0341"
+                                                fill="white" />
+                                        </svg></span>
+                                    <p>(+123)4567890</p>
+                                </a>
                     </ul>
-                    <div class="blackNav__number">
-                        <a href="phone.com">
-                            <span><svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29"
-                                    fill="none">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                        d="M15.7112 21.6437L18.802 18.5529C19.1446 18.2103 19.6837 18.1626 20.0811 18.4398L24.5014 21.5227C25.012 21.8788 25.0766 22.6098 24.6364 23.05L23.8556 23.8309C23.1453 24.5411 22.1284 24.8488 21.169 24.5511C18.8255 23.8241 14.2531 22.0271 10.4856 18.2596C6.71814 14.4922 4.9212 9.91976 4.19414 7.57624C3.8965 6.61689 4.20413 5.59998 4.91439 4.88972L5.69526 4.10884C6.13544 3.66867 6.86648 3.73331 7.22259 4.2439L10.3055 8.66413C10.5827 9.06161 10.535 9.60064 10.1924 9.9433L7.10157 13.0341"
-                                        fill="white" />
-                                </svg></span>
-                            <p>(+123)4567890</p>
-                        </a>
-
-                    </div>
                     <div class="blackNav__lang">
                         <div><a href="">
                                 <p>USD $</p>
@@ -79,6 +82,9 @@
         <nav class="navi">
             <div class="container">
                 <div class="navigation">
+                    <div class="hamburger">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                     <div class="navigation__logo">
                         <a href="./index.html">
                             <img src="./assets/imgs/logo.svg" alt="">
@@ -86,9 +92,9 @@
                     </div>
                     <ul class="navigation__items">
                         <li><a href="">home</a></li>
-                        <li><a href="">shop</a></li>
+                        <li><a href="#section3">shop</a></li>
                         <li><a href="">pages</a></li>
-                        <li><a href="">blog</a></li>
+                        <li><a href="#section6">blog</a></li>
                         <li><a href="">contact us</a></li>
                     </ul>
                     <ul class="navigation__icon">
@@ -99,7 +105,7 @@
                                         d="M12.5135 19.2668C16.3795 19.2668 19.5135 16.1328 19.5135 12.2668C19.5135 8.40079 16.3795 5.26678 12.5135 5.26678C8.64756 5.26678 5.51355 8.40079 5.51355 12.2668C5.51355 16.1328 8.64756 19.2668 12.5135 19.2668Z"
                                         stroke="black" />
                                 </svg></a></li>
-                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="31"
+                        <li class="noneSearch"><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="31"
                                     viewBox="0 0 25 31" fill="none">
                                     <path
                                         d="M21.8469 20.65H18.6177C16.6633 20.65 14.8314 19.3122 13.708 17.0646L11.6442 12.9355C10.5208 10.6879 8.68888 9.3501 6.73454 9.3501L3.84692 9.3501"
@@ -112,14 +118,14 @@
                                     <path d="M19.8469 16.8501L22.8469 20.6001L19.8469 24.3501" stroke="black"
                                         stroke-linecap="round" />
                                 </svg></a></li>
-                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="26" height="27"
-                                    viewBox="0 0 26 27" fill="none">
+                        <li><a href="./assets/pages/wishlist.html"><svg xmlns="http://www.w3.org/2000/svg" width="26"
+                                    height="27" viewBox="0 0 26 27" fill="none">
                                     <path
                                         d="M13.347 23.2501L11.8365 21.8474C6.47196 16.8847 2.9303 13.6117 2.9303 9.59481C2.9303 6.32178 5.45113 3.75012 8.65946 3.75012C10.472 3.75012 12.2115 4.61089 13.347 5.9711C14.4824 4.61089 16.222 3.75012 18.0345 3.75012C21.2428 3.75012 23.7636 6.32178 23.7636 9.59481C23.7636 13.6117 20.222 16.8847 14.8574 21.858L13.347 23.2501Z"
                                         stroke="black" />
                                 </svg></a></li>
-                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="28" height="29"
-                                    viewBox="0 0 28 29" fill="none">
+                        <li><a href="./assets/pages/cart.html"><svg xmlns="http://www.w3.org/2000/svg" width="28"
+                                    height="29" viewBox="0 0 28 29" fill="none">
                                     <rect x="6.47192" y="8.45844" width="15.75" height="14.5" stroke="black"
                                         stroke-linecap="round" stroke-linejoin="round" />
                                     <path
@@ -132,8 +138,404 @@
             </div>
         </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <div class="item active">
+                            <img src="./assets/imgs/heroBg.png" alt="Image 1" />
+                            <div class="carousel__text">
+                                <p>Face Makeup Brush</p>
+                                <h4>Skincare Brush Set <br> Sale 30% Off</h4>
+                                <button>Shop now</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/imgs/heroGemini.jpeg" alt="Image 2" />
+                            <div class="carousel__text">
+                                <p>Smell Fresh</p>
+                                <h4>indulge in captivating <br> scent journey</h4>
+                                <button>Shop now</button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="./assets/imgs/heroGemini2.jpeg" alt="Image 3" />
+                            <div class="carousel__text">
+                                <p>Scent of elegance</p>
+                                <h4>Evoke allure with <br> our fragrance</h4>
+                                <button>Shop now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn prev"><i class="fa-solid fa-angle-left"></i></button>
+                    <button class="btn next"><i class="fa-solid fa-angle-right"></i></button>
+                    <div class="dots"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section1">
+            <div class="container">
+                <div class="advatages">
+                    <div class="advatages__item">
+                        <div class="advatages__item--icon">
+                            <img src="./assets/imgs/shipping.svg" alt="">
+                        </div>
+                        <div class="advatages__item--text">
+                            <h6>Free Shipping</h6>
+                            <p>On all orders over $75.00</p>
+                        </div>
+                    </div>
+                    <div class="advatages__item">
+                        <div class="advatages__item--icon">
+                            <img src="./assets/imgs/return.svg" alt="">
+                        </div>
+                        <div class="advatages__item--text">
+                            <h6>Free Returns</h6>
+                            <p>Returns are free within 9 days</p>
+                        </div>
+                    </div>
+                    <div class="advatages__item">
+                        <div class="advatages__item--icon"><img src="./assets/imgs/secure.svg" alt=""></div>
+                        <div class="advatages__item--text">
+                            <h6>100% Payment Secure</h6>
+                            <p>Your payment are safe with us.</p>
+                        </div>
+                    </div>
+                    <div class="advatages__item">
+                        <div class="advatages__item--icon"><img src="./assets/imgs/support.svg" alt=""></div>
+                        <div class="advatages__item--text">
+                            <h6>Support 24/7</h6>
+                            <p>Contact us 24 hours a day</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="container">
+            <section class="section2">
+                <div>
+                    <img class="add1" src="./assets/imgs/add1.png" alt="">
+                </div>
+                <div class="section2__right">
+
+                    <div>
+                        <img class="add2" src="./assets/imgs/add2.png" alt="">
+                    </div>
+                    <div>
+                        <img class="add2" src="./assets/imgs/add3.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="section3" id="section3">
+                <div class="section3__caption">
+                    <h3 class="section3__caption--top">Our products</h3>
+                    <div class="section3__caption--center"></div>
+                    <p class="section3__caption--bottom">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, culpa?
+                    </p>
+                </div>
+                <ul class="section3__categories">
+                    <li>new products</li>
+                    <li>on sale</li>
+                    <li>upcoming products</li>
+                </ul>
+                <div class="section3__cards">
+                    <div class="section3__cards--card">
+                        <div class="section3__cards--card__top"
+                            style="background-image: url(./assets/imgs/product1.png);">
+
+                        </div>
+                        <div class="section3__cards--card__bottom">
+                            <div class="section3__cards--card__bottom--text">
+                                <p>All Natural Makeup Beauty </p>
+                                <a href="">Cosmetics</a>
+                            </div>
+                            <div class="section3__cards--card__bottom--price">
+                                <p>$11.90</p>
+
+                                <button id="plus"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section3__cards--card">
+                        <div class="section3__cards--card__top"
+                            style="background-image: url(./assets/imgs/product2.png);">
+                        </div>
+                        <div class="section3__cards--card__bottom">
+                            <div class="section3__cards--card__bottom--text">
+                                <p>On Trend Makeup and Beauty</p>
+                                <a href="">Cosmetics</a>
+                            </div>
+                            <div class="section3__cards--card__bottom--price">
+                                <p>$11.90</p>
+
+                                <button id="plus"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section3__cards--card">
+                        <div class="section3__cards--card__top"
+                            style="background-image: url(./assets/imgs/product3.png);">
+                        </div>
+                        <div class="section3__cards--card__bottom">
+                            <div class="section3__cards--card__bottom--text">
+                                <p>The Cosmetics and Beauty brand</p>
+                                <a href="">Shoppe</a>
+                            </div>
+                            <div class="section3__cards--card__bottom--price">
+                                <p>$21.90</p>
+
+                                <button id="plus"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section3__cards--card">
+                        <div class="section3__cards--card__top"
+                            style="background-image: url(./assets/imgs/product4.png);">
+                        </div>
+                        <div class="section3__cards--card__bottom">
+                            <div class="section3__cards--card__bottom--text">
+                                <p>Orginal Age Defying Cosmetics </p>
+                                <a href="">Makeup</a>
+                            </div>
+                            <div class="section3__cards--card__bottom--price">
+                                <p>$19.90</p>
+
+                                <button id="plus"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="section4">
+                <div class="section4__left">
+                    <div href="" class="section4__add1"><img src="./assets/imgs/sec4Add1.png" alt=""></div>
+                    <div href="index.html" class="section4__add1"><img src="./assets/imgs/sec4Add2.png" alt=""></div>
+                </div>
+                <div href="index.html" class="section4__add2"><img src="./assets/imgs/sec4Add3.png" alt=""></div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="section5">
+                <div class="section5__caption">
+                    <h3 class="section5__caption--top">New Arrival products</h3>
+                    <div class="section5__caption--center"></div>
+                    <p class="section5__caption--bottom">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, repellat.
+                    </p>
+                </div>
+                <div class="section5__cards">
+                    <div class="section5__cards--card">
+                        <div class="section3__cards--card__top"
+                            style="background-image: url(./assets/imgs/newproduct1.png);">
+
+                        </div>
+                        <div class="section5__cards--card__bottom">
+                            <div class="section5__cards--card__bottom--text">
+                                <p>All Natural Makeup Beauty </p>
+                                <a href="">Cosmetics</a>
+                            </div>
+                            <div class="section5__cards--card__bottom--price">
+                                <p>$11.90</p>
+
+                                <button id="plus"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section5__cards--card">
+                        <div class="section5__cards--card__top"
+                            style="background-image: url(./assets/imgs/newproduct2.png);">
+                        </div>
+                        <div class="section5__cards--card__bottom">
+                            <div class="section5__cards--card__bottom--text">
+                                <p>On Trend Makeup and Beauty</p>
+                                <a href="">Cosmetics</a>
+                            </div>
+                            <div class="section5__cards--card__bottom--price">
+                                <p>$11.90</p>
+
+                                <button id="plus"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section5__cards--card">
+                        <div class="section5__cards--card__top"
+                            style="background-image: url(./assets/imgs/newproduct3.png);">
+                        </div>
+                        <div class="section5__cards--card__bottom">
+                            <div class="section5__cards--card__bottom--text">
+                                <p>The Cosmetics and Beauty brand</p>
+                                <a href="">Shoppe</a>
+                            </div>
+                            <div class="section5__cards--card__bottom--price">
+                                <p>$21.90</p>
+                                <button id="plus"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section5__cards--card">
+                        <div class="section5__cards--card__top"
+                            style="background-image: url(./assets/imgs/newproduct4.png);">
+                        </div>
+                        <div class="section5__cards--card__bottom">
+                            <div class="section5__cards--card__bottom--text">
+                                <p>Orginal Age Defying Cosmetics </p>
+                                <a href="">Makeup</a>
+                            </div>
+                            <div class="section5__cards--card__bottom--price">
+                                <p>$19.90</p>
+                                <button id="plus"><i class="fa-solid fa-plus"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="section6" id="section6">
+                <div class="section6__top">
+                    <h2>from our Latest Blogs</h2>
+                    <div></div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="section6__bottom">
+                    <div class="section6__bottom--card">
+                        <div class="section6__bottom--card__top"
+                            style="background-image: url(./assets/imgs/blogs1.png);"></div>
+                        <div class="section6__bottom--card__bottom">
+                            <a href="">Fashion</a>
+                            <p class="order">This is first Post For Blog</p>
+                            <p class="postedBy">
+                                Posted by
+                                <span>
+                                    <a href="">HasTech</a>
+                                </span>
+                                12TH Nov 2023
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section6__bottom--card">
+                        <div class="section6__bottom--card__top"
+                            style="background-image: url(./assets/imgs/blogs2.png);"></div>
+                        <div class="section6__bottom--card__bottom">
+                            <a href="">Fashion</a>
+                            <p class="order">This is second Post For Blog</p>
+                            <p class="postedBy">
+                                Posted by
+                                <span>
+                                    <a href="">HasTech</a>
+                                </span>
+                                12TH Nov 2023
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section6__bottom--card">
+                        <div class="section6__bottom--card__top"
+                            style="background-image: url(./assets/imgs/blogs3.png);"></div>
+                        <div class="section6__bottom--card__bottom">
+                            <a href="">Fashion</a>
+                            <p class="order">This is third Post For Blog</p>
+                            <p class="postedBy">
+                                Posted by
+                                <span>
+                                    <a href="">HasTech</a>
+                                </span>
+                                12TH Nov 2023
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section6__bottom--card">
+                        <div class="section6__bottom--card__top"
+                            style="background-image: url(./assets/imgs/blogs4.png);"></div>
+                        <div class="section6__bottom--card__bottom">
+                            <a href="">Fashion</a>
+                            <p class="order">This is fourth Post For Blog</p>
+                            <p class="postedBy">
+                                Posted by
+                                <span>
+                                    <a href="">HasTech</a>
+                                </span>
+                                12TH Nov 2023
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="container">
+            <section class="section7">
+                <a href=""><img src="./assets/imgs/brands1.svg" alt=""></a>
+                <a href=""><img src="./assets/imgs/brands2.svg" alt=""></a>
+                <a href=""><img src="./assets/imgs/brands3.svg" alt=""></a>
+                <a href=""><img src="./assets/imgs/brands4.svg" alt=""></a>
+                <a href=""><img src="./assets/imgs/brands5.svg" alt=""></a>
+                <a href=""><img src="./assets/imgs/brands2.svg" alt=""></a>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="footer__left">
+                    <a href="./index.html">
+                        <img src="./assets/imgs/logo.svg" alt="logo">
+                    </a>
+                    <p>We are a team of professional designers and developers that create high quality wordpress
+                        plugins, Html, React Template.</p>
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer__right">
+                    <div class="footer__right--left">
+                        <div>
+                            <h5>Information</h5>
+                            <div class="footer__line"></div>
+                        </div>
+                        <ul>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">payment</a></li>
+                            <li><a href="">Contact us</a></li>
+                            <li><a href="">Stores</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__right--center">
+                        <div>
+                            <h5>social Links</h5>
+                            <div class="footer__line"></div>
+                        </div>
+                        <ul>
+                            <li><a href="">New products</a></li>
+                            <li><a href="">Best sales</a></li>
+                            <li><a href="">Login</a></li>
+                            <li><a href="">My account</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__right--right">
+                        <div>
+                            <h5>Newsletter</h5>
+                            <div class="footer__line"></div>
+                        </div>
+                        <p>Subcribe to the TheFace mailing list to receive update on mnew arrivals, special offers and
+                            other discount information.</p>
+                        <form action="">
+                            <input type="email" placeholder="Your email address">
+                            <button>Sign up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="main.js"></script>
 
 </html>
